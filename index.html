@@ -5,104 +5,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoja de vida de Allan Chen</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
-        <section class="fondo">
-            <h1>Hoja de Allan Chen</h1>
-            </section>
-    </header>
-    <div class="navegacion">
-        <nav class="navegacion-principal">
-            <a href="#">Inicio</a>
+        <div class="fondo">
+            <img src="iimg/WhatsApp Image 2024-05-23 at 12.42.29.jpeg" alt="Logo" class="logo-animado">
+            <h1> Hoja de Vida de Allan Chen</h1>
+        </div>
+        <nav class="navegacion">
             <a href="#datos">Datos Personales</a>
-            <a href="#">Formación Academica</a>
+            <a href="#formacion">Formación Académica</a>
             <a href="#contacto">Contacto</a>
         </nav>
-    </div>
+    </header>
     <main>
-        <section id="datos">
-            <section class="fondo2">
-                    <h3>Datos Personales</h3>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-circle" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-                        <path d="M12 10m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-                        <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.834 2.855" />
-                      </svg>
-                 <div class="datos">
-                    <div class="datos2">
-                     <h4>Nombre:</h4>
-                     <p>Allan Omar Chen López</p> 
-                    </div>
-                    <div class="datos2">
-                     <h4>Profesión:</h4>
-                     <p>Estudiante</p> 
-                    </div>
-                     <div class="datos2">
-                     <h4>Edad:</h4>
-                     <p>17 años</p> 
-                    </div>
-                     <div class="datos2">
-                     <h4>DPI:</h4>
-                     <p>-</p>
-                    </div> 
+        <section id="datos" class="section">
+            <h2>Datos Personales</h2>
+            <div class="datos-personales">
+                <div class="dato">
+                    <i class="fas fa-user"></i>
+                    <p><strong>Nombre:</strong> Allan Omar Chen López</p>
                 </div>
-            </section>
+                <div class="dato">
+                    <i class="fas fa-briefcase"></i>
+                    <p><strong>Profesión:</strong> Estudiante</p>
+                </div>
+                <div class="dato">
+                    <i class="fas fa-birthday-cake"></i>
+                    <p><strong>Edad:</strong> 17 años</p>
+                </div>
+                <div class="dato">
+                    <i class="fas fa-id-card"></i>
+                    <p><strong>DPI:</strong> -</p>
+                </div>
+            </div>
         </section>
-
-        <section>
-            <h3>Formación Academica</h3>
-            <div class="formacion">
-            <div class="escuela">
-                <h4>Ciclo Diversificado</h4>
-                <p>Instituto Técnico Diversificado de Bachillerato en Construccón</p>
-                <p>2022-2024</p>
+        <section id="formacion" class="section">
+            <h2>Formación Académica</h2>
+            <div class="formacion-academica">
+                <div class="escuela">
+                    <h3>Ciclo Diversificado</h3>
+                    <p>Instituto Técnico Diversificado de Bachillerato en Construcción</p>
+                    <p>2022-2024</p>
+                </div>
+                <div class="escuela">
+                    <h3>Ciclo Básico</h3>
+                    <p>Instituto Normal Mixto del Norte Emilio Rosales Ponce</p>
+                    <p>2019-2021</p>
+                </div>
+                <div class="escuela">
+                    <h3>Nivel Primario</h3>
+                    <p>Escuela Rural Mixta Aldea Caquigual</p>
+                    <p>2012-2018</p>
+                </div>
             </div>
-            <div class="escuela">
-                <h4>Ciclo Básico</h4>
-                <p>Instituto Normal Mixto del Norte Emilio Rosales Ponce</p>
-                <p>2019-2021</p>
-            </div>
-            <div class="escuela">
-                <h4>Nivel Primario</h4>
-                <p>Escuela Rural Mixta Aldea Caquigual</p>
-                <p>2012-2018</p>
-                </p>
-            </div>
-        </div>
         </section>
-
-        <section id="contacto">
-            <h3>Contacto</h3>
+        <section id="contacto" class="section">
+            <h2>Contacto</h2>
             <form class="formulario">
-                <fieldset>
-                    <legend>Contacteme llenando todos los campos</legend>
-                </fieldset>
-                    <div class="contenedor-campos">
-                        <div class="campo">
-                        <label>Nombre</label>
-                         <input class="input-text" type="text" placeholder="Escriba su Nombre" />
-                    </div>
-                    <div class="campo">
-                         <label>Telefono</label>
-                         <input class="input-text" type="text" placeholder="Escriba su Numero de Telefono" />
-                    </div>
-                    <div class="campo">
-                         <label>Correo Electronico</label>
-                         <input class="input-text" type="email" placeholder="Escriba su Correo Electronico" />
-                    </div>
-                    <div class="campo">
-                         <label>Mensaje</label>
-                         <textarea class="input-text"></textarea>
+                <div class="form-group">
+                    <label for="nombre"><i class="fas fa-user"></i> Nombre</label>
+                    <input type="text" id="nombre" placeholder="Escriba su Nombre">
                 </div>
-                    </div>  
-                <input type="submit" value="Enviar" />
-            </form>  
+                <div class="form-group">
+                    <label for="telefono"><i class="fas fa-phone"></i> Teléfono</label>
+                    <input type="text" id="telefono" placeholder="Escriba su Número de Teléfono">
+                </div>
+                <div class="form-group">
+                    <label for="email"><i class="fas fa-envelope"></i> Correo Electrónico</label>
+                    <input type="email" id="email" placeholder="Escriba su Correo Electrónico">
+                </div>
+                <div class="form-group">
+                    <label for="mensaje"><i class="fas fa-comment"></i> Mensaje</label>
+                    <textarea id="mensaje" placeholder="Escriba su Mensaje"></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Enviar</button>
+            </form>
         </section>
     </main>
     <footer>
-        <p>Todos los derechos reservados</p>
+        <p>Todos los derechos reservados &copy; 2024</p>
+    <div class="footer1">    
+        <div class="iconos-redes">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+        <div class="navegacionfooter">
+            <nav>
+                <a href="#datos">Datos Personales</a>
+                <a href="#formacion">Formación Académica</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+
+        </div>
+    </div> 
+    
+    
     </footer>
 </body>
 </html>
