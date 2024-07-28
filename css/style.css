@@ -1,6 +1,6 @@
 :root {
-    --azul-oscuro: #1E3A8A;
-    --azul-claro: #3B82F6;
+    --verde-azulado-oscuro: #2C3E50;
+    --azul-claro: #1ABC9C;
     --blanco: #FFFFFF;
     --gris-suave: #F3F4F6;
     --gris-oscuro: #4B5563;
@@ -16,14 +16,15 @@ body {
 }
 
 header {
-    background: var(--azul-oscuro);
+    background: var(--verde-azulado-oscuro);
     color: var(--blanco);
     padding: 1rem 0;
     text-align: center;
+    box-sizing: 50px;
 }
 
 .fondo {
-    background: var(--azul-oscuro);
+    background: var(--verde-azulado-oscuro);
     color: var(--blanco);
     padding: 2rem 1rem;
 }
@@ -48,7 +49,7 @@ main {
 }
 
 .navegacion a:hover {
-    background-color: var(--azul-oscuro);
+    background-color: var(--verde-azulado-oscuro);
 }
 
 /* Secciones */
@@ -57,33 +58,54 @@ main {
 }
 
 h2 {
-    color: var(--azul-oscuro);
+    color: var(--verde-azulado-oscuro);
     text-align: center;
     margin-bottom: 1rem;
 }
 
-.datos-personales, .formacion-academica {
+.datos-personales {
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
-.dato, .escuela {
+.dato {
     background: var(--blanco);
     border-radius: 0.5rem;
     margin: 0.5rem;
     padding: 1rem;
-    flex: 1 1 300px;
+    flex: 1 1 45%;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.dato i, .escuela i {
-    color: var(--azul-oscuro);
-    font-size: 1.5rem;
+.dato i {
+    color: var(--verde-azulado-oscuro);
+    font-size: 2rem;
     margin-bottom: 0.5rem;
 }
 
+.formacion-academica {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.institucion {
+    background: var(--blanco);
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    padding: 1rem;
+    flex: 1 1 45%;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.institucion i {
+    color: var(--verde-azulado-oscuro);
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
 /* Formulario de Contacto */
 .formulario {
     background: var(--blanco);
@@ -134,7 +156,7 @@ h2 {
 }
 
 .formulario .btn-submit:hover {
-    background: var(--azul-oscuro);
+    background: var(--verde-azulado-oscuro);
     transform: scale(1.05);
 }
 
@@ -153,7 +175,7 @@ h2 {
 
 .iconos-redes a i{
    font-size: 1.3rem;
-   color: var(--azul-oscuro);
+   color: var(--verde-azulado-oscuro);
    opacity: 0.9;
 }
 
@@ -161,7 +183,7 @@ h2 {
 
 
 footer {
-    background: var(--azul-oscuro);
+    background: var(--verde-azulado-oscuro);
     color: var(--blanco);
     text-align: center;
     padding: 1rem 0;
@@ -170,7 +192,7 @@ footer {
 .navegacionfooter {
         display: flex;
         justify-content: center;
-        background: var(--azul-oscuro);
+        background: var(--verde-azulado-oscuro);
         padding: 0.5rem 0;
 }
     
