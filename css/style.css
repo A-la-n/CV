@@ -213,3 +213,9 @@ footer {
     vertical-align: middle;
     margin-right: 0rem;
 }
+
+@media (max-width: 390px) {
+    .navegacion a{
+        display: block;
+     }
+ }
