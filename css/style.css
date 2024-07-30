@@ -215,7 +215,7 @@ footer {
 }
 
 @media (max-width: 390px) {
-    .navegacion a{
+    .navegacionfooter a{
         display: block;
      }
  }
